@@ -1,12 +1,14 @@
 
-
+import List from "./src/List";
 
 
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+    <div>My to do list</div>
     
+    </div>
   );
 }
 

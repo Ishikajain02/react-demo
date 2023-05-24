@@ -24,23 +24,15 @@ function App() {
     </div>
     <div>
     <ol>
-      {too.map(toos  =>  <li>
-        {too}
-      </li>)}
+      {too.map(toos  => {return( <li>
+        {toos}
+      </li>
+      )} )
+      }
     </ol>
     </div>
     </div>
     );
  }
- 
-
-  
- 
-
- 
-
-
-
-
-export default App;
+ export default App;
 
